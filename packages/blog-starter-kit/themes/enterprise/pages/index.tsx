@@ -85,6 +85,8 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 		<AppProvider publication={publication}>
 			<Layout>
 				<Head>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7043318866696412"
+     crossorigin="anonymous"></script>
 					<title>
 						{publication.displayTitle || publication.title || 'Hashnode Blog Starter Kit'}
 					</title>
